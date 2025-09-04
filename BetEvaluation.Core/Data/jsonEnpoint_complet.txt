@@ -1,0 +1,2940 @@
+{
+  "isSuccess": true,
+  "value": [
+    {
+      "id": 1,
+      "e": "Match Winner",
+      "f": "Vainqueur du Match",
+      "c": "1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 2,
+      "e": "Home/Away",
+      "f": "Domicile/Extérieur",
+      "c": "1_2",
+      "n": 2,
+      "o": 500,
+      "g": 1
+    },
+    {
+      "id": 3,
+      "e": "Second Half Winner",
+      "f": "Vainqueur Deuxiéme Mi-temps",
+      "c": "1X2_H2",
+      "n": 3,
+      "o": 5,
+      "g": 3
+    },
+    {
+      "id": 4,
+      "e": "Asian Handicap",
+      "f": "Handicap Asiatique",
+      "c": "AH",
+      "n": 2,
+      "o": 1,
+      "g": 5
+    },
+    {
+      "id": 5,
+      "e": "Goals Over/Under",
+      "f": "Plus/Moins de Buts",
+      "c": "OU",
+      "n": 2,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 6,
+      "e": "Goals Over/Under First Half",
+      "f": "Plus/Moins de Buts Premiére Mi-temps",
+      "c": "OU_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 7,
+      "e": "HT/FT Double",
+      "f": "Mi-temps/Fin de Match",
+      "c": "HTFT",
+      "n": 3,
+      "o": 1,
+      "g": 8
+    },
+    {
+      "id": 8,
+      "e": "Both Teams Score",
+      "f": "Les Deux équipes Marquent",
+      "c": "BTS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 9,
+      "e": "Handicap Result",
+      "f": "Résultat avec Handicap",
+      "c": "EH",
+      "n": 3,
+      "o": 1,
+      "g": 5
+    },
+    {
+      "id": 10,
+      "e": "Exact Score",
+      "f": "Score Exact",
+      "c": "CS",
+      "n": 4,
+      "o": 500,
+      "g": 7
+    },
+    {
+      "id": 11,
+      "e": "Highest Scoring Half",
+      "f": "Mi-temps la Plus Prolifique",
+      "c": "HSH",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 12,
+      "e": "Double Chance",
+      "f": "Double Chance",
+      "c": "DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 13,
+      "e": "First Half Winner",
+      "f": "Vainqueur Premiére Mi-temps",
+      "c": "1X2_H1",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 14,
+      "e": "Team To Score First",
+      "f": "équipe qui Marque en Premier",
+      "c": "S1G",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 15,
+      "e": "Team To Score Last",
+      "f": "équipe qui Marque en Dernier",
+      "c": "TEAM_SCORE_LAST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 16,
+      "e": "Total - Home",
+      "f": "Total - Domicile",
+      "c": "OU_T1",
+      "n": 2,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 17,
+      "e": "Total - Away",
+      "f": "Total - Extérieur",
+      "c": "OU_T2",
+      "n": 2,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 18,
+      "e": "Handicap Result - First Half",
+      "f": "Résultat avec Handicap - Premiére Mi-temps",
+      "c": "EH_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 19,
+      "e": "Asian Handicap First Half",
+      "f": "Handicap Asiatique Premiére Mi-temps",
+      "c": "AH_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 20,
+      "e": "Double Chance - First Half",
+      "f": "Double Chance - Premiére Mi-temps",
+      "c": "DC_H1",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 21,
+      "e": "Odd/Even",
+      "f": "Pair/Impair",
+      "c": "OE",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 22,
+      "e": "Odd/Even - First Half",
+      "f": "Pair/Impair - Premiére Mi-temps",
+      "c": "OE_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 23,
+      "e": "Home Odd/Even",
+      "f": "Domicile Pair/Impair",
+      "c": "OE_T1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 24,
+      "e": "Results/Both Teams Score",
+      "f": "Résultat/Les Deux équipes Marquent",
+      "c": "RBTS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 25,
+      "e": "Result/Total Goals",
+      "f": "Résultat/Total de Buts",
+      "c": "RTG",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 26,
+      "e": "Goals Over/Under - Second Half",
+      "f": "Plus/Moins de Buts - Deuxiéme Mi-temps",
+      "c": "OU_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 27,
+      "e": "Clean Sheet - Home",
+      "f": "Feuille Blanche - Domicile",
+      "c": "CLEAN_SHEET_T1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 28,
+      "e": "Clean Sheet - Away",
+      "f": "Feuille Blanche - Extérieur",
+      "c": "CLEAN_SHEET_T2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 29,
+      "e": "Win to Nil - Home",
+      "f": "Victoire sans Encaisser - Domicile",
+      "c": "WIN_TO_NIL_T1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 30,
+      "e": "Win to Nil - Away",
+      "f": "Victoire sans Encaisser - Extérieur",
+      "c": "WIN_TO_NIL_T2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 31,
+      "e": "Correct Score - First Half",
+      "f": "Score Exact - Premiére Mi-temps",
+      "c": "CS_H1",
+      "n": 4,
+      "o": 1,
+      "g": 7
+    },
+    {
+      "id": 32,
+      "e": "Win Both Halves",
+      "f": "Gagner les Deux Mi-temps",
+      "c": "WIN_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 33,
+      "e": "Double Chance - Second Half",
+      "f": "Double Chance - Deuxiéme Mi-temps",
+      "c": "DC_H2",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 34,
+      "e": "Both Teams Score - First Half",
+      "f": "Les Deux équipes Marquent - Premiére Mi-temps",
+      "c": "BTS_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 35,
+      "e": "Both Teams To Score - Second Half",
+      "f": "Les Deux équipes Marquent - Deuxiéme Mi-temps",
+      "c": "BTS_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 36,
+      "e": "Win To Nil",
+      "f": "Victoire sans Encaisser",
+      "c": "WIN_TO_NIL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 37,
+      "e": "Home win both halves",
+      "f": "Domicile gagne les deux mi-temps",
+      "c": "T1_WIN_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 38,
+      "e": "Exact Goals Number",
+      "f": "Nombre Exact de Buts",
+      "c": "EXACT_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 39,
+      "e": "To Win Either Half",
+      "f": "Gagner l'une des Mi-temps",
+      "c": "WIN_EITHER_HALF",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 40,
+      "e": "Home Team Exact Goals Number",
+      "f": "Nombre Exact de Buts équipe Domicile",
+      "c": "T1_EXACT_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 41,
+      "e": "Away Team Exact Goals Number",
+      "f": "Nombre Exact de Buts équipe Extérieur",
+      "c": "T2_EXACT_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 42,
+      "e": "Second Half Exact Goals Number",
+      "f": "Nombre Exact de Buts Deuxiéme Mi-temps",
+      "c": "H2_EXACT_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 43,
+      "e": "Home Team Score a Goal",
+      "f": "équipe Domicile Marque un But",
+      "c": "TSG_T1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 44,
+      "e": "Away Team Score a Goal",
+      "f": "équipe Extérieur Marque un But",
+      "c": "TSG_T2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 45,
+      "e": "Corners Over Under",
+      "f": "Plus/Moins de Corners",
+      "c": "CORNERS_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 46,
+      "e": "Exact Goals Number - First Half",
+      "f": "Nombre Exact de Buts - Premiére Mi-temps",
+      "c": "H1_EXACT_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 47,
+      "e": "Winning Margin",
+      "f": "Marge de Victoire",
+      "c": "WINNING_MARGIN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 48,
+      "e": "To Score In Both Halves By Teams",
+      "f": "Marquer dans les Deux Mi-temps par équipe",
+      "c": "TSG_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 49,
+      "e": "Total Goals/Both Teams To Score",
+      "f": "Total de Buts/Les Deux équipes Marquent",
+      "c": "OU_AND_BTS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 50,
+      "e": "Goal Line",
+      "f": "Ligne de But",
+      "c": "GOAL_LINE",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 51,
+      "e": "Halftime Result/Total Goals",
+      "f": "Résultat Mi-temps/Total de Buts",
+      "c": "1X2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 52,
+      "e": "Halftime Result/Both Teams Score",
+      "f": "Résultat Mi-temps/Les Deux équipes Marquent",
+      "c": "1X2_HALFTIME_AND_BTS",
+      "n": 2,
+      "o": 1,
+      "g": 8
+    },
+    {
+      "id": 53,
+      "e": "Away win both halves",
+      "f": "Extérieur gagne les deux mi-temps",
+      "c": "AWAY_WIN_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 54,
+      "e": "First 10 min Winner",
+      "f": "Vainqueur des 10 Premiéres Minutes",
+      "c": "1X2_10MINUTES",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 55,
+      "e": "Corners 1x2",
+      "f": "Corners 1x2",
+      "c": "CORNERS_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 56,
+      "e": "Corners Asian Handicap",
+      "f": "Corners Handicap Asiatique",
+      "c": "CORNERS_AH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 57,
+      "e": "Home Corners Over/Under",
+      "f": "Corners Domicile Plus/Moins",
+      "c": "HOME_CORNERS_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 58,
+      "e": "Away Corners Over/Under",
+      "f": "Corners Extérieur Plus/Moins",
+      "c": "AWAY_CORNERS_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 59,
+      "e": "Own Goal",
+      "f": "But contre son Camp",
+      "c": "OWN_GOAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 60,
+      "e": "Away Odd/Even",
+      "f": "Extérieur Pair/Impair",
+      "c": "AWAY_ODD_EVEN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 61,
+      "e": "To Qualify",
+      "f": "Se Qualifier",
+      "c": "QUALIFY",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 62,
+      "e": "Correct Score - Second Half",
+      "f": "Score Exact - Deuxiéme Mi-temps",
+      "c": "CS_H1",
+      "n": 2,
+      "o": 1,
+      "g": 7
+    },
+    {
+      "id": 63,
+      "e": "Odd/Even - Second Half",
+      "f": "Pair/Impair - Deuxiéme Mi-temps",
+      "c": "OE_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 72,
+      "e": "Goal Line (1st Half)",
+      "f": "Ligne de But (1ére Mi-temps)",
+      "c": "GOAL_LINE_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 73,
+      "e": "Both Teams to Score 1st Half - 2nd Half",
+      "f": "Les Deux équipes Marquent 1ére Mi-temps - 2éme Mi-temps",
+      "c": "BTS_H1_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 74,
+      "e": "10 Over/Under",
+      "f": "10 Plus/Moins",
+      "c": "10_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 75,
+      "e": "Last Corner",
+      "f": "Dernier Corner",
+      "c": "LAST_CORNER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 76,
+      "e": "First Corner",
+      "f": "Premier Corner",
+      "c": "FIRST_CORNER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 77,
+      "e": "Total Corners (1st Half)",
+      "f": "Total Corners (1ére Mi-temps)",
+      "c": "CORNERS_OU_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 78,
+      "e": "RTG_H1",
+      "f": "RTG_H1",
+      "c": "RTG_H1",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 79,
+      "e": "Cards European Handicap",
+      "f": "Cartons Handicap Européen",
+      "c": "CARDS_EH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 80,
+      "e": "Cards Over/Under",
+      "f": "Cartons Plus/Moins",
+      "c": "CARDS_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 81,
+      "e": "Cards Asian Handicap",
+      "f": "Cartons Handicap Asiatique",
+      "c": "CARDS_AH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 82,
+      "e": "Home Team Total Cards",
+      "f": "Total Cartons équipe Domicile",
+      "c": "CARDS_HOME_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 83,
+      "e": "Away Team Total Cards",
+      "f": "Total Cartons équipe Extérieur",
+      "c": "CARDS_AWAY_OU",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 84,
+      "e": "Total Corners (3 way) (1st Half)",
+      "f": "Total Corners (3 voies) (1ére Mi-temps)",
+      "c": "CORNERS_TOTAL_1X2_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 85,
+      "e": "Total Corners (3 way)",
+      "f": "Total Corners (3 voies)",
+      "c": "CORNERS_TOTAL_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 86,
+      "e": "RCARD",
+      "f": "CARTON ROUGE",
+      "c": "RED_CARDS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 87,
+      "e": "Total ShotOnGoal",
+      "f": "Total Tirs Cadrés",
+      "c": "SHOT_ON_GOAL_TOTAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 88,
+      "e": "Home Total ShotOnGoal",
+      "f": "Total Tirs Cadrés Domicile",
+      "c": "HOME_SHOT_ON_GOAL_TOTAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 89,
+      "e": "Away Total ShotOnGoal",
+      "f": "Total Tirs Cadrés Extérieur",
+      "c": "AWAY_SHOT_ON_GOAL_TOTAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 91,
+      "e": "Total Goals (3 way)",
+      "f": "Total de Buts (3 voies)",
+      "c": "TOTAL_GOALS_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 92,
+      "e": "Anytime Goal Scorer",
+      "f": "Buteur é Tout Moment",
+      "c": "ANYTIME_GOAL_SCORER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 93,
+      "e": "First Goal Scorer",
+      "f": "Premier Buteur",
+      "c": "FIRST_GOAL_SCORER",
+      "n": 3,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 94,
+      "e": "Last Goal Scorer",
+      "f": "Dernier Buteur",
+      "c": "LAST_GOAL_SCORER",
+      "n": 3,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 95,
+      "e": "To Score Two or More Goals",
+      "f": "Marquer Deux Buts ou Plus",
+      "c": "SCORE_2_OR_MORE_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 96,
+      "e": "Last Goal Scorer",
+      "f": "Dernier Buteur",
+      "c": "LAST_GOAL_SCORER",
+      "n": 3,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 97,
+      "e": "First Goal Method",
+      "f": "Méthode du Premier But",
+      "c": "FIRST_GOAL_METHOD",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 99,
+      "e": "To Score A Penalty",
+      "f": "Marquer un Penalty",
+      "c": "SCORE_A_PENALTY",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 100,
+      "e": "To Miss A Penalty",
+      "f": "Rater un Penalty",
+      "c": "MISS_PENALTY",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 101,
+      "e": "",
+      "f": "",
+      "c": "1X2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 102,
+      "e": "Player to be booked",
+      "f": "Joueur qui Prend un Carton",
+      "c": "PLAYER_TO_BOOKED",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 103,
+      "e": "Player to be Sent Off",
+      "f": "Joueur Expulsé",
+      "c": "PLAYER_TO_SENT_OFF",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 104,
+      "e": "Asian Handicap (2nd Half)",
+      "f": "Handicap Asiatique (2éme Mi-temps)",
+      "c": "AH_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 105,
+      "e": "Home Team Total Goals(1st Half)",
+      "f": "Total Buts équipe Domicile (1ére Mi-temps)",
+      "c": "OU_T1_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 106,
+      "e": "Away Team Total Goals(1st Half)",
+      "f": "Total Buts équipe Extérieur (1ére Mi-temps)",
+      "c": "OU_T1_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 107,
+      "e": "Home Team Total Goals(2nd Half)",
+      "f": "Total Buts équipe Domicile (2éme Mi-temps)",
+      "c": "OU_T1_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 108,
+      "e": "Away Team Total Goals(2nd Half)",
+      "f": "Total Buts équipe Extérieur (2éme Mi-temps)",
+      "c": "OU_T2_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 109,
+      "e": "Draw No Bet (1st Half)",
+      "f": "Nul non Valable (1ére Mi-temps)",
+      "c": "DND_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 110,
+      "e": "Scoring Draw",
+      "f": "Match Nul avec Buts",
+      "c": "X_WITH_GOALS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 111,
+      "e": "Home team will score in both halves",
+      "f": "équipe domicile marquera dans les deux mi-temps",
+      "c": "HOME_SCORE_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 112,
+      "e": "Away team will score in both halves",
+      "f": "équipe extérieur marquera dans les deux mi-temps",
+      "c": "AWAY_SCORE_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 113,
+      "e": "Both Teams To Score in Both Halves",
+      "f": "Les Deux équipes Marquent dans les Deux Mi-temps",
+      "c": "BTS_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 114,
+      "e": "Home Team Score a Goal (1st Half)",
+      "f": "équipe Domicile Marque un But (1ére Mi-temps)",
+      "c": "HOME_SCORE_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 115,
+      "e": "Home Team Score a Goal (2nd Half)",
+      "f": "équipe Domicile Marque un But (2éme Mi-temps)",
+      "c": "HOME_SCORE_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 116,
+      "e": "Away Team Score a Goal (1st Half)",
+      "f": "équipe Extérieur Marque un But (1ére Mi-temps)",
+      "c": "AWAY_SCORE_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 117,
+      "e": "Away Team Score a Goal (2nd Half)",
+      "f": "équipe Extérieur Marque un But (2éme Mi-temps)",
+      "c": "AWAY_SCORE_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 118,
+      "e": "Home Win/Over",
+      "f": "Victoire Domicile/Plus",
+      "c": "HOME_WIN_OVER",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 119,
+      "e": "Home Win/Under",
+      "f": "Victoire Domicile/Moins",
+      "c": "HOME_WIN_UNDER",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 120,
+      "e": "Away Win/Over",
+      "f": "Victoire Extérieur/Plus",
+      "c": "AWAY_WIN_OVER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 121,
+      "e": "Away Win/Under",
+      "f": "Victoire Extérieur/Moins",
+      "c": "AWAY_WIN_UNDER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 122,
+      "e": "Home team will win either half",
+      "f": "équipe domicile gagnera l'une des mi-temps",
+      "c": "HOME_WIN_EITHER_HALF",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 123,
+      "e": "Away team will win either half",
+      "f": "équipe extérieur gagnera l'une des mi-temps",
+      "c": "AWAY_WIN_EITHER_HALF",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 124,
+      "e": "Home Come From Behind and Win",
+      "f": "Domicile Remonte et Gagne",
+      "c": "HOME_COME_FROM_BEHIND_WIN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 125,
+      "e": "Corners Asian Handicap (1st Half)",
+      "f": "Corners Handicap Asiatique (1ére Mi-temps)",
+      "c": "CORNERS_ASIAN_HANDICAP_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 126,
+      "e": "Corners Asian Handicap (2nd Half)",
+      "f": "Corners Handicap Asiatique (2éme Mi-temps)",
+      "c": "CORNERS_ASIAN_HANDICAP_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 127,
+      "e": "Total Corners (2nd Half)",
+      "f": "Total Corners (2éme Mi-temps)",
+      "c": "CORNERS_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 128,
+      "e": "Total Corners (3 way) (2nd Half)",
+      "f": "Total Corners (3 voies) (2éme Mi-temps)",
+      "c": "CORNERS_1X2_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 129,
+      "e": "Away Come From Behind and Win",
+      "f": "Extérieur Remonte et Gagne",
+      "c": "AWAY_COME_FROM_BEHIND_WIN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 130,
+      "e": "Corners 1x2 (1st Half)",
+      "f": "Corners 1x2 (1ére Mi-temps)",
+      "c": "CORNERS_1X2_H1",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 131,
+      "e": "Corners 1x2 (2nd Half)",
+      "f": "Corners 1x2 (2éme Mi-temps)",
+      "c": "CORNERS_1X2_H2",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 132,
+      "e": "Home Total Corners (1st Half)",
+      "f": "Total Corners Domicile (1ére Mi-temps)",
+      "c": "CORNERS_TOTAL_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 133,
+      "e": "Home Total Corners (2nd Half)",
+      "f": "Total Corners Domicile (2éme Mi-temps)",
+      "c": "CORNERS_TOTAL_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 134,
+      "e": "Away Total Corners (1st Half)",
+      "f": "Total Corners Extérieur (1ére Mi-temps)",
+      "c": "HOME_CORNERS_TOTAL_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 135,
+      "e": "Away Total Corners (2nd Half)",
+      "f": "Total Corners Extérieur (2éme Mi-temps)",
+      "c": "AWAY_CORNERS_TOTAL_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 136,
+      "e": "1x2 - 15 minutes",
+      "f": "1x2 - 15 minutes",
+      "c": "1X2_15MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 137,
+      "e": "1x2 - 60 minutes",
+      "f": "1x2 - 60 minutes",
+      "c": "1X2_60MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 138,
+      "e": "1x2 - 75 minutes",
+      "f": "1x2 - 75 minutes",
+      "c": "1X2_75MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 139,
+      "e": "1x2 - 30 minutes",
+      "f": "1x2 - 30 minutes",
+      "c": "1X2_30MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 140,
+      "e": "DC - 30 minutes",
+      "f": "DC - 30 minutes",
+      "c": "DC_30MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 141,
+      "e": "DC - 15 minutes",
+      "f": "DC - 15 minutes",
+      "c": "DC_15MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 142,
+      "e": "DC - 60 minutes",
+      "f": "DC - 60 minutes",
+      "c": "DC_60MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 143,
+      "e": "DC - 75 minutes",
+      "f": "DC - 75 minutes",
+      "c": "DC_75MIN",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 144,
+      "e": "Goal in 1-15 minutes",
+      "f": "But entre 1-15 minutes",
+      "c": "GOAL_IN_1_15M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 145,
+      "e": "Goal in 16-30 minutes",
+      "f": "But entre 16-30 minutes",
+      "c": "GOAL_IN_16_30M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 146,
+      "e": "Goal in 31-45 minutes",
+      "f": "But entre 31-45 minutes",
+      "c": "GOAL_IN_31_45M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 147,
+      "e": "Goal in 46-60 minutes",
+      "f": "But entre 46-60 minutes",
+      "c": "GOAL_IN_46_60M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 148,
+      "e": "Goal in 61-75 minutes",
+      "f": "But entre 61-75 minutes",
+      "c": "GOAL_IN_61_75M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 149,
+      "e": "Goal in 76-90 minutes",
+      "f": "But entre 76-90 minutes",
+      "c": "GOAL_IN_76_90M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 150,
+      "e": "Home Team Yellow Cards",
+      "f": "Cartons Jaunes équipe Domicile",
+      "c": "HOME_TEAM_YELLOW_CARDS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 151,
+      "e": "Away Team Yellow Cards",
+      "f": "Cartons Jaunes équipe Extérieur",
+      "c": "AWAY_TEAM_YELLOW_CARDS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 152,
+      "e": "Yellow Asian Handicap",
+      "f": "Cartons Jaunes Handicap Asiatique",
+      "c": "YELLOW_ASIAN_HANDICAP",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 153,
+      "e": "Yellow Over/Under",
+      "f": "Cartons Jaunes Plus/Moins",
+      "c": "YELLOW_OVER_UNDER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 154,
+      "e": "Yellow Double Chance",
+      "f": "Cartons Jaunes Double Chance",
+      "c": "YELLOW_DOUBLE_CHANCE",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 155,
+      "e": "Yellow Over/Under (1st Half)",
+      "f": "Cartons Jaunes Plus/Moins (1ére Mi-temps)",
+      "c": "YELLOW_OVER_UNDER_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 156,
+      "e": "Yellow Over/Under (2nd Half)",
+      "f": "Cartons Jaunes Plus/Moins (2éme Mi-temps)",
+      "c": "YELLOW_OVER_UNDER_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 157,
+      "e": "Yellow Odd/Even",
+      "f": "Cartons Jaunes Pair/Impair",
+      "c": "YELLOW_ODD_EVEN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 158,
+      "e": "Yellow Cards 1x2",
+      "f": "Cartons Jaunes 1x2",
+      "c": "YELLOW_CARDS_1X2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 159,
+      "e": "Yellow Asian Handicap (1st Half)",
+      "f": "Cartons Jaunes Handicap Asiatique (1ére Mi-temps)",
+      "c": "YELLOW_AH_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 160,
+      "e": "Yellow Asian Handicap (2nd Half)",
+      "f": "Cartons Jaunes Handicap Asiatique (2éme Mi-temps)",
+      "c": "YELLOW_AH_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 161,
+      "e": "Yellow Cards 1x2 (1st Half)",
+      "f": "Cartons Jaunes 1x2 (1ére Mi-temps)",
+      "c": "YELLOW_1X2_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 162,
+      "e": "Yellow Cards 1x2 (2nd Half)",
+      "f": "Cartons Jaunes 1x2 (2éme Mi-temps)",
+      "c": "YELLOW_CARDS_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 163,
+      "e": "Penalty Awarded",
+      "f": "Penalty Accordé",
+      "c": "PENALTY_AWARDED",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 164,
+      "e": "Offsides Total",
+      "f": "Total Hors-jeu",
+      "c": "OFFSIDES_TOTAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 165,
+      "e": "Offsides 1x2",
+      "f": "Hors-jeu 1x2",
+      "c": "OFFSIDES_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 166,
+      "e": "Offsides Handicap",
+      "f": "Hors-jeu Handicap",
+      "c": "OFFSIDES_AH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 167,
+      "e": "Offsides Home Total",
+      "f": "Total Hors-jeu Domicile",
+      "c": "OFFSIDES_HOME_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 168,
+      "e": "Offsides Away Total",
+      "f": "Total Hors-jeu Extérieur",
+      "c": "OFFSIDES_AWAY_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 169,
+      "e": "Offsides Double Chance",
+      "f": "Hors-jeu Double Chance",
+      "c": "OFFSIDES_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 170,
+      "e": "Fouls. Away Total",
+      "f": "Fautes. Total Extérieur",
+      "c": "FOULS_AWAY_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 171,
+      "e": "Fouls. Home Total",
+      "f": "Fautes. Total Domicile",
+      "c": "FOULS_HOME_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 172,
+      "e": "Fouls. Double Chance",
+      "f": "Fautes. Double Chance",
+      "c": "FOULS_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 173,
+      "e": "Fouls. Total",
+      "f": "Fautes. Total",
+      "c": "FOULS_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 174,
+      "e": "Fouls. Handicap",
+      "f": "Fautes. Handicap",
+      "c": "FOULS_AH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 175,
+      "e": "Fouls. 1x2",
+      "f": "Fautes. 1x2",
+      "c": "FOULS_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 176,
+      "e": "ShotOnTarget 1x2",
+      "f": "Tirs Cadrés 1x2",
+      "c": "SHOT_ON_TARGET_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 177,
+      "e": "ShotOnTarget Handicap",
+      "f": "Tirs Cadrés Handicap",
+      "c": "SHOT_ON_TARGET_AH",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 178,
+      "e": "ShotOnTarget Double Chance",
+      "f": "Tirs Cadrés Double Chance",
+      "c": "SHOT_ON_TARGET_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 179,
+      "e": "First Team to Score",
+      "f": "Premiére équipe é Marquer",
+      "c": "FIRST_TEAM_TO_SCORE",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 180,
+      "e": "Last Team to Score",
+      "f": "Derniére équipe é Marquer",
+      "c": "LAST_TEAM_TO_SCORE",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 181,
+      "e": "European Handicap (2nd Half)",
+      "f": "Handicap Européen (2éme Mi-temps)",
+      "c": "EH_H2",
+      "n": 3,
+      "o": 1,
+      "g": 5
+    },
+    {
+      "id": 182,
+      "e": "Draw No Bet (2nd Half)",
+      "f": "Nul non Valable (2éme Mi-temps)",
+      "c": "DNB_H2",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 183,
+      "e": "Double Chance/Total",
+      "f": "Double Chance/Total",
+      "c": "DC_AND_OU",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 184,
+      "e": "To Score in Both Halves",
+      "f": "Marquer dans les Deux Mi-temps",
+      "c": "TO_SCORE_IN_BOTH_HALVES",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 185,
+      "e": "First Team to Score (3 way) 1st Half",
+      "f": "Premiére équipe é Marquer (3 voies) 1ére Mi-temps",
+      "c": "FIRST_TEAM_TO_SCORE_3WAY_H1",
+      "n": 3,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 186,
+      "e": "Total Goals Number By Ranges",
+      "f": "Nombre Total de Buts par Tranches",
+      "c": "TOTAL_GOALS_BY_RANGES",
+      "n": 4,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 187,
+      "e": "Total Goals By Ranges (1st Half)",
+      "f": "Total de Buts par Tranches (1ére Mi-temps)",
+      "c": "TOTAL_GOALS_BY_RANGES_H1",
+      "n": 4,
+      "o": 1,
+      "g": 2
+    },
+    {
+      "id": 188,
+      "e": "Clean Sheet",
+      "f": "Feuille Blanche",
+      "c": "CLEAN_SHEET",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 189,
+      "e": "To Advance Handicap",
+      "f": "Se Qualifier Handicap",
+      "c": "TO_ADVANCE_HANDICAP",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 190,
+      "e": "Home Exact Goals Number (1st Half)",
+      "f": "Nombre Exact de Buts Domicile (1ére Mi-temps)",
+      "c": "HOME_EXACT_GOALS_H1",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 191,
+      "e": "Away Exact Goals Number (1st Half)",
+      "f": "Nombre Exact de Buts Extérieur (1ére Mi-temps)",
+      "c": "AWAY_EXACT_GOALS_H1",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 192,
+      "e": "Home Highest Scoring Half",
+      "f": "Mi-temps la Plus Prolifique Domicile",
+      "c": "HOME_HIGHEST_SCORING_HALF",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 193,
+      "e": "Away Highest Scoring Half",
+      "f": "Mi-temps la Plus Prolifique Extérieur",
+      "c": "AWAY_HIGHEST_SCORING_HALF",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 194,
+      "e": "Result/Total Goals (2nd Half)",
+      "f": "Résultat/Total de Buts (2éme Mi-temps)",
+      "c": "RESULT_TOTAL_GOALS_H2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 195,
+      "e": "Either Team Wins By 1 Goals",
+      "f": "Une équipe Gagne par 1 But",
+      "c": "EITHER_TEAM_WINS_BY_1_GOAL",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 196,
+      "e": "Either Team Wins By 2 Goals",
+      "f": "Une équipe Gagne par 2 Buts",
+      "c": "EITHER_TEAM_WINS_BY_2_GOALS",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 197,
+      "e": "Over/Under 15m-30m",
+      "f": "Plus/Moins 15m-30m",
+      "c": "OVER_UNDER_15M_30M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 198,
+      "e": "Over/Under 30m-45m",
+      "f": "Plus/Moins 30m-45m",
+      "c": "OVER_UNDER_30M_45M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 199,
+      "e": "Home Win To Nill (1st Half)",
+      "f": "Victoire Domicile sans Encaisser (1ére Mi-temps)",
+      "c": "HOME_WIN_TO_NILL_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 200,
+      "e": "Home Win To Nill (2nd Half)",
+      "f": "Victoire Domicile sans Encaisser (2éme Mi-temps)",
+      "c": "HOME_WIN_TO_NILL_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 201,
+      "e": "To Score In 1st Half",
+      "f": "Marquer en 1ére Mi-temps",
+      "c": "SCORE_IN_H1",
+      "n": 2,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 202,
+      "e": "To Score In 2nd Half",
+      "f": "Marquer en 2éme Mi-temps",
+      "c": "SCORE_IN_H2",
+      "n": 3,
+      "o": 1,
+      "g": 3
+    },
+    {
+      "id": 203,
+      "e": "Yellow Cards. Odd/Even (1st Half)",
+      "f": "Cartons Jaunes. Pair/Impair (1ére Mi-temps)",
+      "c": "YELLOW_CARDS_ODD_EVEN_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 204,
+      "e": "Yellow Cards. Odd/Even (2nd Half)",
+      "f": "Cartons Jaunes. Pair/Impair (2éme Mi-temps)",
+      "c": "YELLOW_CARDS_ODD_EVEN_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 205,
+      "e": "First Team to Score (3 way) 2nd Half",
+      "f": "Premiére équipe é Marquer (3 voies) 2éme Mi-temps",
+      "c": "FIRST_TEAM_TO_SCORE_H2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 206,
+      "e": "Home No Bet",
+      "f": "Domicile Non Pari",
+      "c": "HOME_NO_BET",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 207,
+      "e": "Away No Bet",
+      "f": "Extérieur Non Pari",
+      "c": "AWAY_NO_BET",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 208,
+      "e": "Corners. First Corner (3 way)",
+      "f": "Corners. Premier Corner (3 voies)",
+      "c": "CORNERS_FIRST_CORNER_1X2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 209,
+      "e": "Home Come From Behind and Draw",
+      "f": "Domicile Remonte et fait Match Nul",
+      "c": "HOME_COME_FROM_BEHIND_AND_DRAW",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 210,
+      "e": "Away Come From Behind and Draw",
+      "f": "Extérieur Remonte et fait Match Nul",
+      "c": "AWAY_COME_FROM_BEHIND_AND_DRAW",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 211,
+      "e": "Total Shots",
+      "f": "Total Tirs",
+      "c": "TOTAL_SHOTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 212,
+      "e": "Player Assists",
+      "f": "Passes Décisives Joueur",
+      "c": "PLAYER_ASSIST",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 213,
+      "e": "Player Triples",
+      "f": "Triplés Joueur",
+      "c": "PLAYER_TRIPLES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 214,
+      "e": "Player Points",
+      "f": "Points Joueur",
+      "c": "PLAYER_POINTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 215,
+      "e": "Player Singles",
+      "f": "Simples Joueur",
+      "c": "PLAYER_SINGLES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 216,
+      "e": "Multi Touchdown Scorer (2 or More)",
+      "f": "Buteur Multiple Touchdown (2 ou Plus)",
+      "c": "MULTI_TOUCHDOWN_SCORER_2_OR_MORE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 217,
+      "e": "Multi Touchdown Scorer (3 or More)",
+      "f": "Buteur Multiple Touchdown (3 ou Plus)",
+      "c": "MULTI_TOUCHDOWN_SCORER_3_OR_MORE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 218,
+      "e": "Away Anytime Goal Scorer",
+      "f": "Buteur é Tout Moment Extérieur",
+      "c": "1X2",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 219,
+      "e": "Away First Goal Scorer",
+      "f": "Premier Buteur Extérieur",
+      "c": "AWAY_SCORE_FIRST_GOAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 220,
+      "e": "Shots. Away Total",
+      "f": "Tirs. Total Extérieur",
+      "c": "AWAY_TOTAL_SHOTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 221,
+      "e": "Shots. Home Total",
+      "f": "Tirs. Total Domicile",
+      "c": "HOME_TOTAL_SHOTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 222,
+      "e": "To Win From Behind",
+      "f": "Gagner en Remontant",
+      "c": "TO_WIN_FROM_BEHIND",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 223,
+      "e": "Number of Goals In Match (Range)",
+      "f": "Nombre de Buts dans le Match (Tranche)",
+      "c": "NUMBER_OF_GOALS_IN_MATCH_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 224,
+      "e": "Game Decided After Penalties",
+      "f": "Match Décidé aux Penalties",
+      "c": "GAME_DECIDED_AFTER_PENALTIES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 225,
+      "e": "Game Decided in Extra Time",
+      "f": "Match Décidé en Prolongation",
+      "c": "GAME_DECIDED_IN_EXTRA_TIME",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 226,
+      "e": "Away Last Goal Scorer",
+      "f": "Dernier Buteur Extérieur",
+      "c": "AWAY_LAST_GOAL_SCORER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 227,
+      "e": "Goal Method Header",
+      "f": "Méthode de But de la Téte",
+      "c": "GOAL_METHOD_HEADER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 228,
+      "e": "Home Goal Method Header",
+      "f": "Méthode de But de la Téte Domicile",
+      "c": "HOME_GOAL_METHOD_HEADER",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 229,
+      "e": "Goal Method Outside the Box",
+      "f": "Méthode de But Hors de la Surface",
+      "c": "GOAL_METHOD_OUTSIDE_THE_BOX",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 230,
+      "e": "Home Goal Method Outside the Box",
+      "f": "Méthode de But Hors de la Surface Domicile",
+      "c": "HOME_GOAL_METHOD_OUTSIDE_THE_BOX",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 231,
+      "e": "Home Anytime Goal Scorer",
+      "f": "Buteur é Tout Moment Domicile",
+      "c": "HOME_ANYTIME_GOAL_SCORER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 232,
+      "e": "Home First Goal Scorer",
+      "f": "Premier Buteur Domicile",
+      "c": "HOME_FIRST_GOAL_SCORER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 233,
+      "e": "Home Last Goal Scorer",
+      "f": "Dernier Buteur Domicile",
+      "c": "HOME_LAST_GOAL_SCORER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 234,
+      "e": "Home To Score Three or More Goals",
+      "f": "Domicile Marque Trois Buts ou Plus",
+      "c": "HOME_TO_SCORE_THREE_OR_MORE_GOALS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 235,
+      "e": "Away To Score Three or More Goals",
+      "f": "Extérieur Marque Trois Buts ou Plus",
+      "c": "AWAY_TO_SCORE_THREE_OR_MORE_GOALS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 236,
+      "e": "Away To Score Two or More Goals",
+      "f": "Extérieur Marque Deux Buts ou Plus",
+      "c": "AWAY_TO_SCORE_TWO_OR_MORE_GOALS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 237,
+      "e": "Home To Score Two or More Goals",
+      "f": "Domicile Marque Deux Buts ou Plus",
+      "c": "HOME_TO_SCORE_TWO_OR_MORE_GOALS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 239,
+      "e": "Corners. European Handicap",
+      "f": "Corners. Handicap Européen",
+      "c": "CORNERS_EUROPEAN_HANDICAP",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 240,
+      "e": "Home Player Shots",
+      "f": "Tirs Joueur Domicile",
+      "c": "HOME_PLAYER_SHOTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 241,
+      "e": "Away Player Shots",
+      "f": "Tirs Joueur Extérieur",
+      "c": "AWAY_PLAYER_SHOTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 242,
+      "e": "Player Shots On Target",
+      "f": "Tirs Cadrés Joueur",
+      "c": "PLAYER_SHOTS_ON_TARGET",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 243,
+      "e": "Home Shots On Target",
+      "f": "Tirs Cadrés Domicile",
+      "c": "HOME_SHOTS_ON_TARGET",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 244,
+      "e": "Away Shots On Target",
+      "f": "Tirs Cadrés Extérieur",
+      "c": "AWAY_SHOTS_ON_TARGET",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 245,
+      "e": "Away Goal Method Header",
+      "f": "Méthode de But de la Téte Extérieur",
+      "c": "AWAY_GOAL_METHOD_HEADER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 246,
+      "e": "Away Goal Method Outside the Box",
+      "f": "Méthode de But Hors de la Surface Extérieur",
+      "c": "AWAY_GOAL_METHOD_OUTSIDE_THE_BOX",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 247,
+      "e": "Corners Race To",
+      "f": "Course aux Corners",
+      "c": "CORNERS_RACE_TO",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 248,
+      "e": "Time Of 1st Score",
+      "f": "Moment du 1er But",
+      "c": "TIME_OF_1ST_SCORE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 249,
+      "e": "Multicorners",
+      "f": "Multi-corners",
+      "c": "MULTICORNERS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 250,
+      "e": "First Card Received (3 way)",
+      "f": "Premier Carton Reéu (3 voies)",
+      "c": "FIRST_CARD_RECEIVED_1X2",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 251,
+      "e": "Player to be booked",
+      "f": "Joueur qui Prend un Carton",
+      "c": "PLAYER_TO_BE_BOOKED",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 252,
+      "e": "Both Teams to Receive a Card",
+      "f": "Les Deux équipes Reéoivent un Carton",
+      "c": "BOTH_TEAMS_TO_RECEIVE_A_CARD",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 253,
+      "e": "Time Of 1st Score",
+      "f": "Moment du 1er But",
+      "c": "TIME_OF_1ST_SCORE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 254,
+      "e": "Team Performances (Range)",
+      "f": "Performances équipe (Tranche)",
+      "c": "TEAM_PERFORMANCES_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 255,
+      "e": "Home Player Assists",
+      "f": "Passes Décisives Joueur Domicile",
+      "c": "HOME_PLAYER_ASSISTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 256,
+      "e": "Away Player Assists",
+      "f": "Passes Décisives Joueur Extérieur",
+      "c": "AWAY_PLAYER_ASSISTS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 257,
+      "e": "Player to Score or Assist",
+      "f": "Joueur Marque ou Passe Décisive",
+      "c": "PLAYER_TO_SCORE_OR_ASSIST",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 258,
+      "e": "Home Player to Score or Assist",
+      "f": "Joueur Domicile Marque ou Passe Décisive",
+      "c": "HOME_PLAYER_TO_SCORE_OR_ASSIST",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 259,
+      "e": "Away Player to Score or Assist",
+      "f": "Joueur Extérieur Marque ou Passe Décisive",
+      "c": "AWAY_PLAYER_TO_SCORE_OR_ASSIST",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 260,
+      "e": "Team Time Of 1st Score",
+      "f": "Moment du 1er But équipe",
+      "c": "TEAM_TIME_OF_1ST_SCORE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 261,
+      "e": "Total Goal Minutes (Range)",
+      "f": "Total Minutes de But (Tranche)",
+      "c": "TOTAL_GOAL_MINUTES_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 262,
+      "e": "Late Goal (Range)",
+      "f": "But Tardif (Tranche)",
+      "c": "LATE_GOAL_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 263,
+      "e": "Early Goal (Range)",
+      "f": "But Précoce (Tranche)",
+      "c": "EARLY_GOAL_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 264,
+      "e": "Player Shots On Target Total",
+      "f": "Total Tirs Cadrés Joueur",
+      "c": "PLAYER_SHOTS_ON_TARGET_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 265,
+      "e": "Player Shots Total",
+      "f": "Total Tirs Joueur",
+      "c": "PLAYER_SHOTS_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 266,
+      "e": "Player Fouls Committed",
+      "f": "Fautes Commises Joueur",
+      "c": "PLAYER_FOULS_COMMITTED",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 267,
+      "e": "Goalkeeper Saves",
+      "f": "Arréts Gardien",
+      "c": "GOALKEEPER_SAVES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 268,
+      "e": "Home Goalkeeper Saves",
+      "f": "Arréts Gardien Domicile",
+      "c": "HOME_GOALKEEPER_SAVES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 269,
+      "e": "Home Player Shots On Target Total",
+      "f": "Total Tirs Cadrés Joueur Domicile",
+      "c": "HOME_PLAYER_SHOTS_ON_TARGET_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 270,
+      "e": "Home Player Shots Total",
+      "f": "Total Tirs Joueur Domicile",
+      "c": "HOME_PLAYER_SHOTS_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 271,
+      "e": "Home Player Fouls Committed",
+      "f": "Fautes Commises Joueur Domicile",
+      "c": "HOME_PLAYER_FOULS_COMMITTED",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 272,
+      "e": "Home Player Tackles",
+      "f": "Tacles Joueur Domicile",
+      "c": "HOME_PLAYER_TACKLES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 273,
+      "e": "Home Player Passes",
+      "f": "Passes Joueur Domicile",
+      "c": "HOME_PLAYER_PASSES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 274,
+      "e": "Away Goalkeeper Saves",
+      "f": "Arréts Gardien Extérieur",
+      "c": "AWAY_GOALKEEPER_SAVES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 275,
+      "e": "Away Player Shots On Target Total",
+      "f": "Total Tirs Cadrés Joueur Extérieur",
+      "c": "AWAY_PLAYER_SHOTS_ON_TARGET_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 276,
+      "e": "Away Player Shots Total",
+      "f": "Total Tirs Joueur Extérieur",
+      "c": "AWAY_PLAYER_SHOTS_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 277,
+      "e": "Away Player Fouls Committed",
+      "f": "Fautes Commises Joueur Extérieur",
+      "c": "AWAY_PLAYER_FOULS_COMMITTED",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 278,
+      "e": "Away Player Tackles",
+      "f": "Tacles Joueur Extérieur",
+      "c": "AWAY_PLAYER_TACKLES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 279,
+      "e": "Away Player Passes",
+      "f": "Passes Joueur Extérieur",
+      "c": "AWAY_PLAYER_PASSES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 280,
+      "e": "First Set Piece 5 Minutes",
+      "f": "Premier Coup de Pied Arrété 5 Minutes",
+      "c": "FIRST_SET_PIECE_5M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 281,
+      "e": "Total Tackles",
+      "f": "Total Tacles",
+      "c": "TOTAL_TACKLES",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 282,
+      "e": "Double Chance/Both Teams To Score",
+      "f": "Double Chance/Les Deux équipes Marquent",
+      "c": "DC_AND_BTS",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 283,
+      "e": "Away Win To Nill (1st Half)",
+      "f": "Victoire Extérieur sans Encaisser (1ére Mi-temps)",
+      "c": "AWAY_WIN_TO_NILL_H1",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 284,
+      "e": "Away Win To Nill (2nd Half)",
+      "f": "Victoire Extérieur sans Encaisser (2éme Mi-temps)",
+      "c": "AWAY_WIN_TO_NILL_H2",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 285,
+      "e": "Team To Score (Goals)",
+      "f": "équipe qui Marque (Buts)",
+      "c": "TEAM_TO_SCORE",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 286,
+      "e": "Team Goalscorers First",
+      "f": "Buteurs équipe en Premier",
+      "c": "TEAM_GOALSCORERS_FIRST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 287,
+      "e": "Team Goalscorers Last",
+      "f": "Buteurs équipe en Dernier",
+      "c": "TEAM_GOALSCORERS_LAST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 288,
+      "e": "Home Team Goalscorers Last",
+      "f": "Buteurs équipe Domicile en Dernier",
+      "c": "HOME_TEAM_GOALSCORERS_LAST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 289,
+      "e": "Away Team Goalscorers First",
+      "f": "Buteurs équipe Extérieur en Premier",
+      "c": "AWAY_TEAM_GOALSCORERS_FIRST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 290,
+      "e": "Away Team Goalscorers Last",
+      "f": "Buteurs équipe Extérieur en Dernier",
+      "c": "AWAY_TEAM_GOALSCORERS_LAST",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 291,
+      "e": "Time of First Goal Brackets (Range)",
+      "f": "Moment du Premier But par Tranches",
+      "c": "TIME_OF_FIRST_GOAL_BRACKETS",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 292,
+      "e": "Over/Under between 0 and 10m",
+      "f": "Plus/Moins entre 0 et 10m",
+      "c": "OVER_UNDER_0_10M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 293,
+      "e": "Double Chance 0-15m",
+      "f": "Double Chance 0-15m",
+      "c": "DC_0_15M",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 294,
+      "e": "Double Chance 15-30m",
+      "f": "Double Chance 15-30m",
+      "c": "DC_15_30M",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 295,
+      "e": "Corners. Total (Range)",
+      "f": "Corners. Total (Tranche)",
+      "c": "CORNERS_TOTAL_RANGE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 296,
+      "e": "Double Chance 30-45m",
+      "f": "Double Chance 30-45m",
+      "c": "DC_30_45M",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 297,
+      "e": "Corners. total between 0 and 10m",
+      "f": "Corners. total entre 0 et 10m",
+      "c": "CORNERS_TOTAL_0_30M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 298,
+      "e": "Method of Victory",
+      "f": "Méthode de Victoire",
+      "c": "METHOD_OF_VICTORY",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 299,
+      "e": "Cards over/under between 0 and 10 m",
+      "f": "Cartons plus/moins entre 0 et 10 m",
+      "c": "CARDS_OU_0_10M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 300,
+      "e": "Both Teams to Receive 2+ Cards",
+      "f": "Les Deux équipes Reéoivent 2+ Cartons",
+      "c": "BOTH_TEAMS_2CARDS_OR_PLUS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 301,
+      "e": "Tackles. Away Total",
+      "f": "Tacles. Total Extérieur",
+      "c": "TACKLES_AWAY_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 302,
+      "e": "Tackles. Home Total",
+      "f": "Tacles. Total Domicile",
+      "c": "TACKLES_HOME_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 303,
+      "e": "Over/Under between 0 and 10 m",
+      "f": "Plus/Moins entre 0 et 10 m",
+      "c": "OU_0_10M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 304,
+      "e": "Over/Under between  0 and 10 m",
+      "f": "Plus/Moins entre 0 et 10 m",
+      "c": "OU_0_10M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 305,
+      "e": "Race to the 2nd goal?",
+      "f": "Course au 2éme but?",
+      "c": "RACE_TO_2ND_GOAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 306,
+      "e": "Race to the 3rd goal?",
+      "f": "Course au 3éme but?",
+      "c": "RACE_TO_3RD_GOAL",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 307,
+      "e": "Corners. Double Chance",
+      "f": "Corners. Double Chance",
+      "c": "CORNERS_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 308,
+      "e": "Race To",
+      "f": "Course Vers",
+      "c": "RACE_TO",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 309,
+      "e": "Yellow Cards. Home Total (1st Half)",
+      "f": "Cartons Jaunes. Total Domicile (1ére Mi-temps)",
+      "c": "YELLOW_CARD_HOME_TOTAL_H1",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 310,
+      "e": "Yellow Cards Away Total (1st Half)",
+      "f": "Cartons Jaunes Total Extérieur (1ére Mi-temps)",
+      "c": "YELLOW_CARD_AWAY_TOTAL_H1",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 311,
+      "e": "Which team will score the 1st goal?",
+      "f": "Quelle équipe marquera le 1er but?",
+      "c": "S1G",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 312,
+      "e": "1x2 - 20 minutes",
+      "f": "1x2 - 20 minutes",
+      "c": "1X2_20M",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 313,
+      "e": "Offsides Odd/Even",
+      "f": "Hors-jeu Pair/Impair",
+      "c": "OFFSIDES_ODD_EVEN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 314,
+      "e": "Fouls Odd/Even",
+      "f": "Fautes Pair/Impair",
+      "c": "OFFSIDES_ODD_EVEN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 315,
+      "e": "Saves Total",
+      "f": "Total Arréts",
+      "c": "SAVES_TOTAL",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 316,
+      "e": "Saves 1x2",
+      "f": "Arréts 1x2",
+      "c": "SAVES_1X2",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 317,
+      "e": "Saves Asian H",
+      "f": "Arréts Handicap Asiatique",
+      "c": "SAVES_AH",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 318,
+      "e": "Saves O/U Home",
+      "f": "Arréts Plus/Moins Domicile",
+      "c": "SAVES_OU_HOME",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 319,
+      "e": "Saves O/U Away",
+      "f": "Arréts Plus/Moins Extérieur",
+      "c": "SAVES_OU_AWAY",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 320,
+      "e": "Saves Double Chance",
+      "f": "Arréts Double Chance",
+      "c": "SAVES_DC",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 321,
+      "e": "Penalty Awarded (1st Half)",
+      "f": "Penalty Accordé (1ére Mi-temps)",
+      "c": "PENALTY_AWARDED_H1",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 322,
+      "e": "Penalty Awarded (2nd Half)",
+      "f": "Penalty Accordé (2éme Mi-temps)",
+      "c": "PENALTY_AWARDED_H2",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 323,
+      "e": "Saves Odd/Even",
+      "f": "Arréts Pair/Impair",
+      "c": "SAVES_ODD_EVEN",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 324,
+      "e": "Corner in 1-15 minutes",
+      "f": "Corner entre 1-15 minutes",
+      "c": "CORNERS_IN_1_15M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 325,
+      "e": "Corner in 16-30 minutes",
+      "f": "Corner entre 16-30 minutes",
+      "c": "CORNERS_IN_16_30M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 326,
+      "e": "Corner in 31-45 minutes",
+      "f": "Corner entre 31-45 minutes",
+      "c": "CORNERS_IN_31_45M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 327,
+      "e": "Corner in 45-60 minutes",
+      "f": "Corner entre 45-60 minutes",
+      "c": "CORNERS_IN_45_60M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 328,
+      "e": "Corner in 60-75 minutes",
+      "f": "Corner entre 60-75 minutes",
+      "c": "CORNERS_IN_60_75M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 329,
+      "e": "Corner in 75-90 minutes",
+      "f": "Corner entre 75-90 minutes",
+      "c": "CORNERS_IN_75_90M",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 330,
+      "e": "Home Not lose/Over",
+      "f": "Domicile Ne Perd Pas/Plus",
+      "c": "HOME_NOT_LOSE_OVER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 331,
+      "e": "Home Not lose/Under",
+      "f": "Domicile Ne Perd Pas/Moins",
+      "c": "HOME_NOT_LOSE_UNDER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 332,
+      "e": "Away Not lose/Over",
+      "f": "Extérieur Ne Perd Pas/Plus",
+      "c": "AWAY_NOT_LOSE_OVER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 333,
+      "e": "Away Not lose/Under",
+      "f": "Extérieur Ne Perd Pas/Moins",
+      "c": "AWAY_NOT_LOSE_UNDER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 334,
+      "e": "1x2 - 70 minutes",
+      "f": "1x2 - 70 minutes",
+      "c": "1X2_70M",
+      "n": 3,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 335,
+      "e": "Red Cards Over/Under",
+      "f": "Cartons Rouges Plus/Moins",
+      "c": "RED_CARDS_OVER_UNDER",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 336,
+      "e": "Goal Line",
+      "f": "Ligne de But",
+      "c": "GOAL_LINE",
+      "n": 4,
+      "o": 1,
+      "g": 1
+    },
+    {
+      "id": 337,
+      "e": "Asian Handicap (Sets)",
+      "f": "Handicap Asiatique (Sets)",
+      "c": "AH_SETS",
+      "n": 2,
+      "o": 1,
+      "g": 1
+    }
+  ],
+  "errorMessage": null
+}

@@ -25,7 +25,7 @@ namespace BetEvaluation.Core.Evaluators
             double value = _type switch
             {
                 ThresholdType.Total => score.TotalGoals,
-                ThresholdType.Cards => score.TotalCards,
+                ThresholdType.Cards => score.TotalCards(),
                 ThresholdType.Corners => score.TotalCorners,
                 _ => throw new NotSupportedException()
             };

@@ -12,14 +12,14 @@ namespace BetEvaluation.Core
         public int FirstHalfAway { get; set; }
         public int SecondHalfHome { get; set; }
         public int SecondHalfAway { get; set; }
-        public bool IsComplete { get; internal set; }
-        public double TotalGoals { get; internal set; }
-        public double TotalCards { get; internal set; }
-        public double TotalCorners { get; internal set; }
-        public int HomeGoalsFirstHalf { get; private set; }
-        public int HomeGoalsSecondHalf { get; private set; }
-        public int AwayGoalsFirstHalf { get; private set; }
-        public int AwayGoalsSecondHalf { get; private set; }
+        public bool IsComplete { get;  set; }
+        public double TotalGoals { get;  set; }
+       // public double TotalCards { get;  set; }
+        public double TotalCorners { get;  set; }
+        public int HomeGoalsFirstHalf { get;  set; }
+        public int HomeGoalsSecondHalf { get;  set; }
+        public int AwayGoalsFirstHalf { get;  set; }
+        public int AwayGoalsSecondHalf { get;  set; }
         public List<GoalEntry> GoalsF { get; set; } = new List<GoalEntry>();
         public int YellowCards(TeamType team)
         {
@@ -41,9 +41,13 @@ namespace BetEvaluation.Core
             return Periods.Values.Sum(p =>
                 team == TeamType.Home ? p.HomeOffsides : p.AwayOffsides);
         }
-        public IEnumerable<object>? Events { get; private set; }
+        public IEnumerable<object>? Events { get;  set; }
         public List<GoalEntry> GoalsByPeriod { get; set; } = new();
         public Dictionary<PeriodType, PeriodScoreData>? Periods { get;  set; }
+        public int HomeGoalsExtraTime { get; private set; }
+        public int AwayGoalsExtraTime { get; private set; }
+        public int AwayGoalsFullTime { get; private set; }
+        public int HomeGoalsFullTime { get; private set; }
 
         public int Goals(TeamType team, PeriodType period)
         {
@@ -54,6 +58,69 @@ namespace BetEvaluation.Core
             if (team == TeamType.Away && period == PeriodType.SecondHalf) return AwayGoalsSecondHalf;
 
             return 0;
+        }
+        // Méthode pour définir les buts (utile pour les tests unitaires)
+        public void SetGoals(TeamType team, PeriodType period, int goals)
+        {
+            //  Équipe à domicile
+            if (team == TeamType.Home)
+            {
+                switch (period)
+                {
+                    case PeriodType.FirstHalf:
+                        HomeGoalsFirstHalf = goals;
+                        break;
+                    case PeriodType.SecondHalf:
+                        HomeGoalsSecondHalf = goals;
+                        break;
+                    case PeriodType.ExtraTime:
+                        HomeGoalsExtraTime = goals;
+                        break;
+                    case PeriodType.FullTime:
+                        HomeGoalsFullTime = goals;
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(period), $"Période non supportée pour l'équipe Home : {period}");
+                }
+            }
+
+            //  Équipe à l’extérieur
+            else if (team == TeamType.Away)
+            {
+                switch (period)
+                {
+                    case PeriodType.FirstHalf:
+                        AwayGoalsFirstHalf = goals;
+                        break;
+                    case PeriodType.SecondHalf:
+                        AwayGoalsSecondHalf = goals;
+                        break;
+                    case PeriodType.ExtraTime:
+                        AwayGoalsExtraTime = goals;
+                        break;
+                    case PeriodType.FullTime:
+                        AwayGoalsFullTime = goals;
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(period), $"Période non supportée pour l'équipe Away : {period}");
+                }
+            }
+
+            // Cas non prévu
+            else
+            {
+                throw new ArgumentOutOfRangeException(nameof(team), $"Type d'équipe non reconnu : {team}");
+            }
+        }
+
+        //  Cartons
+        public int HomeYellowCards { get; set; }
+        public int AwayYellowCards { get; set; }
+        public int HomeRedCards { get; set; }
+        public int AwayRedCards { get; set; }
+        public int TotalCards()
+        {
+            return HomeYellowCards + AwayYellowCards + HomeRedCards + AwayRedCards;
         }
         /// <summary>
         /// Calcule le total pondéré de cartons recus par une équipe sur une p�riode donn�e.
@@ -74,6 +141,10 @@ namespace BetEvaluation.Core
                 .Where(e => e.Team == team && e.Period == period && e.Type.IsCard())
                 .Sum(e => e.Type.GetCardWeight());
         }
+        public PeriodScoreData? GetPeriod(PeriodType period)
+        {
+            return Periods != null && Periods.TryGetValue(period, out var data) ? data : null;
+        }
 
         public int GoalsCount(TeamType team)
         {
@@ -81,6 +152,13 @@ namespace BetEvaluation.Core
         }
 
         public int GetGoalsForPeriod(PeriodType period)
+        {
+            int homeGoals = Goals(TeamType.Home, period);
+            int awayGoals = Goals(TeamType.Away, period);
+            return homeGoals + awayGoals;
+        }
+
+        internal bool IsEmpty()
         {
             throw new NotImplementedException();
         }

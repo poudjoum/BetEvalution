@@ -1,9 +1,5 @@
 ﻿using BetEvaluation.Core.GroupMaketType;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace BetEvaluation.Core.Evaluators
 {
@@ -11,23 +7,22 @@ namespace BetEvaluation.Core.Evaluators
     /// Évalue si le total des buts marqués par les deux équipes pendant une période donnée
     /// correspond à la valeur attendue.
     /// </summary>
-    public class ResultTotalGoalsPeriodEvaluator : IMarketEvaluator
+    public class ResultTotalGoalsPeriodEvaluator:IMarketEvaluator
     {
-        private readonly int _expectedValue;
         private readonly PeriodType _period;
+        private readonly int _expectedValue;
 
-        public ResultTotalGoalsPeriodEvaluator(int expectedValue, PeriodType period)
+        public ResultTotalGoalsPeriodEvaluator(PeriodType period, double value)
         {
-            _expectedValue = expectedValue;
             _period = period;
+            _expectedValue = Convert.ToInt32(Math.Round(value));
         }
 
         public MatchOutcome Evaluate(ScoreData score, string eventCode)
         {
-            var goals = score.GetGoalsForPeriod(_period);
-         //   int totalGoals = goals.Home + goals.Away;
+            int totalGoals = score.GetGoalsForPeriod(_period);
 
-            //if (totalGoals == _expectedValue)
+            if (totalGoals == _expectedValue)
                 return MatchOutcome.Win;
 
             return MatchOutcome.Lost;

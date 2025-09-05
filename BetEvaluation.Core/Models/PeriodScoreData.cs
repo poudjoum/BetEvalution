@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BetEvaluation.Core.GroupMaketType;
+
 
 namespace BetEvaluation.Core.Models
 {
@@ -11,11 +8,11 @@ namespace BetEvaluation.Core.Models
     /// </summary>
     public class PeriodScoreData
     {
-        // 🟢 Score
+        // Score
         public int HomeGoals { get; set; }
         public int AwayGoals { get; set; }
 
-        // 🟡 Corners
+        // Corners
         public int HomeCorners { get; set; }
         public int AwayCorners { get; set; }
 
@@ -24,6 +21,10 @@ namespace BetEvaluation.Core.Models
         public int AwayYellowCards { get; set; }
         public int HomeRedCards { get; set; }
         public int AwayRedCards { get; set; }
+        public int TotalCards()
+        {
+            return HomeYellowCards + AwayYellowCards + HomeRedCards + AwayRedCards;
+        }
 
         //  Fautes
         public int HomeFouls { get; set; }
@@ -41,6 +42,7 @@ namespace BetEvaluation.Core.Models
         // Hors jeu
         public int HomeOffsides { get; set; }
         public int AwayOffsides { get; set; }
+        public PeriodType Type { get; set; }
 
         //  Méthodes utilitaires
         public bool IsEmpty()
